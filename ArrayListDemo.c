@@ -1,11 +1,11 @@
 #include <stdio.h>
 #include <malloc.h>
-#define MAXSIZE 100  // MAXSIZE 定义为 Data 数组的大小
-typedef int ElementType;  // ElementType 可定义为任意类型
+#define MAXSIZE 100  // MAXSIZE the maximum size of ArrayList 
+typedef int ElementType;  // ElementType: can define any types
 typedef struct LNode *List; 
 struct LNode{
    ElementType Data[MAXSIZE]; 
-   int Last;  // Last 定义线性表的最后一个元素
+   int Last;  // Last: Define the last element of ArrayList
 };
 List L;
 
