@@ -98,11 +98,11 @@ int main(){
 	L = MakeEmpty();
 	Insert(11,0,L);
 	printf("Insert 11 to Array List L-Data[0]\n");
-	Insert(25,0,L);
+	Insert(25,1,L);
 	printf("Insert 25 to Array List L-Data[1]\n");
-	Insert(33,0,L);
+	Insert(33,2,L);
 	printf("Insert 33 to Array List L-Data[2]\n");
-	Insert(77,0,L);
+	Insert(77,3,L);
 	printf("Insert 77 to Array List L-Data[3]\n");
 	printf("Now the Array List is: ");
 //	int length_L = Lenght(L);
